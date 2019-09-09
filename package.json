@@ -1,0 +1,28 @@
+{
+  "name": "political-report-crawling",
+  "version": "1.0.0",
+  "description": "爬取政府工作报告",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --require @babel/register ./src/app.js",
+    "build": "babel src --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammffl/political-report-crawling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammffl/political-report-crawling/issues"
+  },
+  "homepage": "https://github.com/sammffl/political-report-crawling#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "koa": "^2.8.1"
+  }
+}
